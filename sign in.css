@@ -1,0 +1,161 @@
+/* Om Namah Shivay */
+/* https://www.github.com/riabhsh/ */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  :root {
+    font-size: 8px;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+  }
+
+  a:link{
+    text-decoration: none;
+    color: white;
+  }
+
+.signin{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  width: 35rem;
+
+  color: whitesmoke;
+}
+
+img{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 4px solid white;
+}
+
+.title{
+  font-size: 5rem;
+  text-transform: capitalize;
+  letter-spacing: -0.2rem;
+  word-spacing: 1rem;
+  text-align: center;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+input{
+  padding: 2rem 4rem; 
+  border-radius: 2rem;
+  border: 2px solid #ffffff;
+  font-size: 2rem;
+  font-weight: 400;
+  outline: none;
+  
+}
+
+input::placeholder{
+  font-size: 2rem;
+  text-transform: capitalize;
+  color: rgb(107, 107, 107);
+}
+
+input:focus{
+  border: 2px solid rgb(117, 255, 119);
+}
+
+*::selection{
+  background-color: rgb(117, 255, 119);
+  color: black;
+}
+
+.form .form-btn{
+  background-color: rgb(117, 255, 119);
+  color: black;
+  padding: 2rem;
+  border-radius: 2rem;
+  font-size: 2.5rem;
+  text-transform: capitalize;
+  font-weight: 600;
+  border: 1.2px solid rgb(117, 255, 119);
+}
+
+.form-btn:hover{
+  background-color: rgb(0, 0, 0);
+  color: rgb(117, 255, 119);
+  border: 1.2px solid rgb(117, 255, 119);
+}
+
+p{
+  font-size: 2.5rem;
+}
+
+.socialbtns{
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: space-evenly;
+  font-weight: 900;
+  text-transform: uppercase;
+  gap: 1rem;
+  width: 100%;
+}
+
+.socialbtns a:link{
+  text-align: center;
+  padding: 1rem;
+  border-radius: 1rem;
+  flex: 1;
+}
+
+.socialbtns a:nth-child(1){
+  color: whitesmoke;
+  background-color: rgb(34, 54, 201);
+}
+
+.socialbtns a:nth-child(2){
+  color: whitesmoke;
+  background-color: rgb(51, 177, 255);
+}
+
+.socialbtns a:nth-child(3){
+  color: whitesmoke;
+  background-color: rgb(255, 43, 43);
+}
+
+.socialbtns a:hover{
+  color: rgb(117, 255, 119);
+  background-color: black;
+}
+
+.forgetpassword{
+  font-size: 2.2rem;
+  color: whitesmoke;
+}
+
+.forgetpassword:hover{
+  color: rgb(117, 255, 119);
+}
+
+.signup{
+  color: rgb(117, 255, 119);
+}
+
+.signup:hover{
+  color: whitesmoke
+}
