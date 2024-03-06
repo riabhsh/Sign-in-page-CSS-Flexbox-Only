@@ -9,5 +9,5 @@ https://codepen.io/riabhsh/full/NWmPawM
 ![Cool Sign in Page Mobile](https://raw.githubusercontent.com/riabhsh/Sign-in-page-CSS-Flexbox-Only/main/Screenshot%20sign%20in%20page%20mobile.png)
 
 ### Web:
-![Cool Sign in Page Web](https://raw.githubusercontent.com/riabhsh/Sign-in-page-CSS-Flexbox-Only/main/Screenshot%20sign%20in%20page%20wb.png)
+![Cool Sign in Page Website](https://raw.githubusercontent.com/riabhsh/Sign-in-page-CSS-Flexbox-Only/main/Screenshot%20sign%20in%20page%20web.png)
 
